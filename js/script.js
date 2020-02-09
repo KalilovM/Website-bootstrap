@@ -35,16 +35,6 @@
   });
 
   //Switch light/dark
-
-  $("#switch").on("click", function() {
-    if ($("section").hasClass("darkS")) {
-      $("section").removeClass("darkS");
-      $("#switch").removeClass("switched");
-    } else {
-      $("section").addClass("darkS");
-      $("#switch").addClass("switched");
-    }
-  });
   $("#switch").on("click", function() {
     if ($("body").hasClass("dark")) {
       $("body").removeClass("dark");
